@@ -1,18 +1,1 @@
-# Diseño de algoritmos en Python
 
-# Adael Almanza Rodriguez 1962143
-# Alan Alonso López olveda 1919501
-# Angel Sánchez Vázquez  1901110
-
-# HORA: N1
-# 1.- Desarrolla un algoritmo que le pida al usuario por su nombre y que lo salude con su nombre, excepto si se llama “Ana”, “Juan”, y “Pedro”.
-
-nombre = input("Introduce tu nombre: ")
-
-if nombre.isalpha():
-    if nombre in ["Ana", "Juan", "Pedro"]:
-        print("Lo siento, no puedo saludarte.")
-    else:
-        print("Hola,", nombre + "!")
-else:
-    print("El nombre debe contener solo letras.")
